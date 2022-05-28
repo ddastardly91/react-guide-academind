@@ -6,7 +6,6 @@ import Card from "../UI/Card";
 function Expenses(props) {
   return (
     <div>
-      <h1>Let's get started</h1>
       <Card className="expenses">
         <ExpenseItem
           title={props.items[0].title}
